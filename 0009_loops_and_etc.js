@@ -46,4 +46,4 @@ switch (str) {
     default:
       console.log("Unknown weather type!");
       break;
-  }
+}
