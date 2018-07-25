@@ -32,8 +32,8 @@ for (let current = 18; ; current++) {
       break;
     }
 }
-const str = 'cloudy';
 
+const str = 'cloudy';
 switch (str) {
     case "rainy":
       console.log("Remember to bring an umbrella.");
