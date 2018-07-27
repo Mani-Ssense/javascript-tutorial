@@ -1,6 +1,5 @@
 //Solution 1:
-let a = 8;
-for (let i = 1; i <= a; i++) {
+for (let i = 1; i <= 8; i++) {
     console.log('#'.repeat(i));
 }
 /*
@@ -16,7 +15,7 @@ for (let i = 1; i <= a; i++) {
 
 //Solution 2:
 let s = '';
-for (let i = 1; i <= a; i++) {
+for (let i = 0; i < 8; i++) {
     s += '#';
     console.log(s);
 }
@@ -30,3 +29,8 @@ for (let i = 1; i <= a; i++) {
 #######
 ########
 */
+
+//Solution 3:
+for (let line = "#"; line.length <= 8; line += "#") {
+    console.log(line);
+}
