@@ -15,10 +15,10 @@ for (let i = 1; i <= a; i++) {
 */
 
 //Solution 2:
-let s = '#';
+let s = '';
 for (let i = 1; i <= a; i++) {
-    console.log(s);
     s += '#';
+    console.log(s);
 }
 /*
 #
